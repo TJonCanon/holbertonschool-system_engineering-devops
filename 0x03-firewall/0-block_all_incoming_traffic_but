@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+# install ufw fire wall
+sudo apt-get install ufw
 sudo ufw default allow outgoing
 sudo ufw default deny incoming
 sudo ufw allow 22
